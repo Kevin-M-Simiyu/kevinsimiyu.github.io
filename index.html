@@ -105,10 +105,47 @@ We are borrowing this template for use with the capstone program
 
                 <h2 id="skills">Skills</h2>
                 <ul>
-                  <li><strong>Study design:</strong> Clinical trial design and analysis, sample size and power calculations, cross-sectional, cohort and case-control studies</li>
-                  <li><strong>Statistical methods:</strong> Linear mixed effects models, GEE, survival analysis (Cox, RMST, competing risks), Bayesian modeling (MCMC, HMC/NUTS, joint modeling, BKMR), Small Area Estimation</li>
-                  <li><strong>Tools:</strong> R, Python, SQL, Excel, Tableau, GitHub, INLA, Stan/CmdStan, LaTeX/Beamer</li>
-                  <li><strong>Genomics (developing):</strong> scRNA-seq analysis (Seurat, DESeq2/edgeR, Slingshot, GSEA)</li>
+                  <li><strong>Study Design:</strong>
+                    <ul>
+                      <li>Clinical trial design and analysis</li>
+                      <li>Sample size and power calculations</li>
+                      <li>Cross-sectional, cohort and case-control studies</li>
+                    </ul>
+                  </li>
+                  <li><strong>Statistical Methods:</strong>
+                    <ul>
+                      <li>Linear mixed effects models</li>
+                      <li>Generalized Estimating Equations (GEE)</li>
+                      <li>Survival analysis: Cox regression, Restricted Mean Survival Time (RMST), competing risks</li>
+                      <li>Bayesian modeling: Markov Chain Monte Carlo (MCMC), Hamiltonian Monte Carlo / No-U-Turn Sampler (HMC/NUTS), Bayesian joint modeling, Bayesian Kernel Machine Regression (BKMR)</li>
+                      <li>Small Area Estimation (SAE)</li>
+                    </ul>
+                  </li>
+                  <li><strong>Tools:</strong>
+                    <ul>
+                      <li>R, Python, SQL, Excel, Tableau, GitHub</li>
+                      <li>Integrated Nested Laplace Approximation (INLA)</li>
+                      <li>Stan/CmdStan</li>
+                      <li>LaTeX/Beamer</li>
+                    </ul>
+                  </li>
+                  <li><strong>Transcriptomics:</strong>
+                    <ul>
+                      <li>Single-cell RNA sequencing (scRNA-seq) analysis: Seurat, DESeq2/edgeR, Slingshot, Gene Set Enrichment Analysis (GSEA)</li>
+                      <li>PBMC single-cell workflow: quality control, normalization, dimensionality reduction (Principal Component Analysis (PCA), Uniform Manifold Approximation and Projection (UMAP)), clustering, and cell type annotation</li>
+                      <li>Dataset integration and batch correction: Canonical Correlation Analysis (CCA), Reciprocal PCA (RPCA), Harmony, Fast Mutual Nearest Neighbors (FastMNN)</li>
+                      <li>Pseudobulk differential expression (DESeq2)</li>
+                    </ul>
+                  </li>
+                  <li><strong>Analysis of Omic Data (general):</strong>
+                    <ul>
+                      <li>Quality control and filtering of high-dimensional omic data</li>
+                      <li>Normalization and variable feature selection</li>
+                      <li>Dimensionality reduction and clustering</li>
+                      <li>Differential expression testing (per-cell and pseudobulk)</li>
+                      <li>Reference-based annotation</li>
+                    </ul>
+                  </li>
                 </ul>
 
                 <h2 id="projects">Projects</h2>
@@ -120,6 +157,11 @@ We are borrowing this template for use with the capstone program
                 <ul>
                   <img src="images/cd41.jpg" width="600" alt="CD4 percent recovery trajectory over time in children with perinatally acquired HIV">
                 </ul>
+
+                <strong>Single-Cell RNA-seq (scRNA-seq) Analysis: PBMC Workflow, Integration and Batch Correction</strong> <em>(self-directed learning project)</em><br>
+                <p>Worked through a complete Seurat v5 scRNA-seq pipeline on public PBMC datasets: quality control and filtering, normalization (log-normalization and SCTransform), dimensionality reduction (PCA, UMAP), clustering, and marker-based cell type annotation. Extended this to integrating a stimulated-vs-control (interferon-beta) dataset across four batch-correction methods (CCA, RPCA, Harmony, FastMNN), Azimuth reference-based annotation on a nine-batch, multi-technology dataset, and both per-cell and true pseudobulk (DESeq2, donor-level replicates) differential expression testing.</p>
+                <p><strong>Key Methods:</strong> Seurat v5, quality control and normalization (SCTransform), PCA/UMAP, Louvain clustering, dataset integration (CCA, RPCA, Harmony, FastMNN), Azimuth, DESeq2 pseudobulk differential expression</p>
+                <p><a href="scRNA_seq_analysis33.pdf" target="_blank">Read more</a></p>
 
                 <strong>Longitudinal Lipid Trajectories in Kenyan Children with Perinatally Acquired HIV</strong> <em>(manuscript in preparation)</em><br>
                 <p>Secondary analysis of the OPH cohort characterizing lipid trajectories from infancy through age 10 and evaluating early-life correlates of dyslipidemia across childhood.</p>
